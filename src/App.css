@@ -36,3 +36,89 @@
     transform: rotate(360deg);
   }
 }
+
+html,body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+
+.backgroundImage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://www.khas.edu.tr/wp-content/uploads/2022/02/GB3A9482-kopya.jpg");
+  background-position-x: center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  height: 100vh;
+
+}
+.formStyle{
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; */
+  background-color: rgba(255,255,255,0.13);
+  border-radius: 10px;
+  backdrop-filter: blur(3px);
+  border: 2px solid rgba(255,255,255,0.1);
+  box-shadow: 0 0 5px rgba(8,7,16,0.6);
+  padding: 40px 25px;
+}
+
+#text{
+  margin-top: 3px;
+}
+
+.profile-button:hover {
+  background: #682773
+}
+
+.profile-button:focus {
+  background: #682773;
+  box-shadow: none
+}
+
+.profile-button:active {
+  background: #682773;
+  box-shadow: none
+}
+
+.back:hover {
+  color: #682773;
+  cursor: pointer
+}
+
+ .form-control:focus {
+    box-shadow: none;
+      border-color: #BA68C8
+   }
+
+   .routingButtons {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 20;
+    -moz-border-radius: 20;
+    border-radius: 20px;
+    font-family: Courier New;
+    color: #e8edf0;
+    font-size: 20px;
+    padding: 9px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .routingButtons:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
